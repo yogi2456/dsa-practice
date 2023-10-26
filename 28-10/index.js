@@ -12,8 +12,8 @@ function permutation(nums) {
         // if(nums[i] != nums[i+1]) {
         //     result.push(nums[i])
         // }
-        for(var j = i + 1; j < nums.length; i++) {
-            for(var k = j + 1; k < nums.length; k++) {
+        for(var j = 0; j < nums.length; i++) {
+            for(var k = 0; k < nums.length; k++) {
                 console.log(i,j,k)
             }
         }
