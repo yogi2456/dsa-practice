@@ -2,7 +2,7 @@
 
 
 var array = [1, 3, 5, 6];
-var target = 5;
+var target = 7;
 
 function sortedArray(nums) {
     for(var i = 0; i < nums.length; i++) {
