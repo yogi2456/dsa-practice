@@ -21,4 +21,5 @@ let interSectionArray = num1.filter((currEle) => {
 });
 
 console.log([...new Set (interSectionArray)])
+//console.log(interSectionArray)
 

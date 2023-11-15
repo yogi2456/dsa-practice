@@ -17,17 +17,17 @@ function duplicate(nums) {
 
 console.log(duplicate(nums))
 
-string =123;
+// string =123;
 
 
-function palindrome(string) {
-for(var i = 0; i > string.length/2; i++) {
-     console.log(string[i])
-     if(string[i] !== string(string.length -1 -i)) {
-        return false;
-     }
-}
-return true;
-}
+// function palindrome(string) {
+// for(var i = 0; i > string.length/2; i++) {
+//      console.log(string[i])
+//      if(string[i] !== string(string.length -1 -i)) {
+//         return false;
+//      }
+// }
+// return true;
+// }
 
-console.log(palindrome(string))
+// console.log(palindrome(string))
