@@ -17,17 +17,15 @@ function duplicate(nums) {
 
 console.log(duplicate(nums))
 
-// string =123;
+let value = "10";
 
+function palindrome() {
+    let reverseVal = value.toString().split("").reverse().join("")
+    let stringVal = value.toString()
+    if(reverseVal == stringVal) {
+        return true;
+    }
+    return false;
+}
 
-// function palindrome(string) {
-// for(var i = 0; i > string.length/2; i++) {
-//      console.log(string[i])
-//      if(string[i] !== string(string.length -1 -i)) {
-//         return false;
-//      }
-// }
-// return true;
-// }
-
-// console.log(palindrome(string))
+console.log(palindrome(value))
