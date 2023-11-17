@@ -29,3 +29,21 @@ function palindrome() {
 }
 
 console.log(palindrome(value))
+
+
+var x = "-121";
+function checkP(x) {
+    // if(str.length < 2){
+    //     return "Str not valid"
+    // }
+
+    for (var i = 0; i < x.length / 2; i++) {
+        if (x[i] !== x[x.length - 1 - i]) {
+            return false
+        }
+    }
+    return true
+
+}
+
+console.log(checkP(x))
