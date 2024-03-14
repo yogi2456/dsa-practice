@@ -20,6 +20,6 @@ let interSectionArray = num1.filter((currEle) => {
     return num2.includes(currEle)
 });
 
-console.log([...new Set (interSectionArray)])
-//console.log(interSectionArray)
+// console.log([...new Set (interSectionArray)])
+console.log(interSectionArray)
 

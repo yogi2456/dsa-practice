@@ -11,7 +11,15 @@ function sortedList(list1, list2) {
         for(j = 0; j < list2.length; j++) {
             mergedlist.push(list2[j])
     }
+    mergedlist.sort()
     return mergedlist;
 }
 
 console.log(sortedList(list1, list2))
+
+
+// function sortedList(list1, list2) {
+    
+// }
+
+// console.log(sortedList(list1, list2))

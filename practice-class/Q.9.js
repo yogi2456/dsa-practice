@@ -1,5 +1,5 @@
 //let value = "101";
-let x = "134";
+let x = "121";
 
 function palindrome() {
     var reverseStr = x.toString().split("").reverse().join("")
