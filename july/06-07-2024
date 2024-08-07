@@ -1,0 +1,152 @@
+// console.log("Hello World")
+
+// // 2. addition of two numbers
+// let num1 = 24;
+// let num2 = 34;
+// let sum = num1 + num2;
+// console.log(sum);
+
+// // 3. check the number even or odd
+// let num = 9;
+// if(num % 2 == 0) {
+//     console.log("This is even")
+// } else {
+//     console.log("This is Odd")
+// }
+
+// // 4. revere a string
+// let str = "tpircsavaj"
+// let reverseString = str.split("").reverse().join("")
+// console.log(reverseString)
+
+// // 5. find largest number
+// let number = [2, 5, 7, 10, 34, 1];
+// let largest = Math.max(...number);
+// console.log(largest)
+
+// // 6. find smallest number
+// let numbers = [2, 5, 7, 10, 34, 1, 23];
+// let smallest = Math.min(...numbers);
+// console.log(smallest)
+
+// 7. convert celsius to fahrenheit
+
+// function celsiusToFahrenheit(celsius) {
+//     return celsius * 9/5 + 32;
+// }
+
+// console.log(celsiusToFahrenheit(20));
+
+// 8. check if a string is palindrome
+
+// function isPalindrome(str) {
+//     let reversedString = str.split("").reverse().join("");
+//     return str === reversedString;
+// }
+
+// console.log(isPalindrome("rotor"))
+
+// 9. calculate the factorial of a number
+
+// function factorial(n) {
+//     if(n === 0) {
+//         return 1;
+//     }
+//     return n * factorial(n - 1);
+// }
+
+// console.log(factorial(5));
+
+// 10. generate a random number between 1 and 10
+
+// let randomName = Math.floor(Math.random() * 10) + 1;
+// console.log(randomName);
+
+// 11. find the length of a string
+
+// let str = "Hello World";
+// console.log(str.length);
+
+// 12. concenate two strings
+
+// let str = "hello";
+// let str1 = "world";
+// let string = str.concat(str1);
+// console.log(string);
+
+// 13. sort an array of numbers 
+
+// let array = [2, 4, 5, 1, 8, 3, 6, 9, 0];
+// let array1 = array.sort();
+// console.log(array1);
+
+// let numbers = [5, 3, 8, 1, 2];           // a-b means ascending order,   b-a means descending order
+// numbers.sort((a,b) => b-a);
+// console.log(numbers)
+
+// 14. find the index of an element in array
+
+// let fruits = ["apple", "mango", "banana"];
+// let index = fruits.indexOf("apple");
+// console.log(index);
+
+// 15. remove the first element from an array
+
+// let array = [45, 1, 2, 3, 4, 5, 6];
+// console.log(array);
+// let sort = array.shift();
+// console.log(sort);
+// console.log(array);
+
+// 16. add an element to the begining of an array
+
+// let array = ["apple", "mango", "banana"];
+// console.log(array);
+// array.unshift("grapes");
+// console.log(array);
+
+// 17. remove the last element from an array
+
+// let array = ["apple", "banana", "mango", "custard"];
+// console.log(array);
+// array.pop();
+// console.log(array);
+
+// 18. add an elemnt from the end of an array
+
+// let array = ["yogesh", "karan", "anuj"];
+// console.log(array);
+// array.push("parsha");
+// console.log(array);
+
+// 19. create an object and access its properties
+
+// let person = {
+//     firstName : "john",
+//     lastName : "Doe",
+//     age : 30
+// }
+
+// console.log(person.firstName);
+// console.log(person["lastName"]);
+
+// 20. create a function that adds two numbers
+
+// function addTwo(a,b) {
+//     return a + b;
+// }
+// console.log(addTwo(2, 3));
+
+// 21. check if a number is positive negative or zero
+
+function checkNumber(num) {
+    if(num > 0) {
+        console.log("The number is positive")
+    } else if(num < 0) {
+        console.log("The number is negative")
+    } else {
+        console.log("The number is zero")
+    }
+}
+
+checkNumber(-5);
